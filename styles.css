@@ -919,15 +919,17 @@ header {
     background-color: #019270;
 }
 
-.h1 {
-    justify-content: center;
-    text-align: center;
-}
-
 .checkmark {
     font-size: 3rem;
     color: #00b894;
     margin-top: 90px;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
 }
 
 .box {
