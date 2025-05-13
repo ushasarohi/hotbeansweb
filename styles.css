@@ -919,6 +919,52 @@ header {
     background-color: #019270;
 }
 
+
+.thank-you-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.thank-you-title {
+  color: var(--deep-purple);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+
+.thank-you-message {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: var(--dark-color);
+}
+
+.next-steps {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.next-steps h3 {
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+}
+
+.next-steps ol {
+  text-align: left;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.next-steps li {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
 .checkmark {
     font-size: 3rem;
     color: #00b894;
