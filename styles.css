@@ -919,7 +919,7 @@ header {
     background-color: #019270;
 }
 
-.h1 {
+.thanks {
     color: #00b894;
     font-size: 2.5rem;
     align-text: center;
@@ -927,6 +927,7 @@ header {
 
 .checkmark {
     font-size: 3rem;
+    justify-content: center;
     color: #00b894;
     margin-top: 90px;
 }
