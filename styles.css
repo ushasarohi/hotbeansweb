@@ -756,7 +756,7 @@ textarea {
   max-height: 100vh;
   overflow-y: auto;
   padding-right: 1rem;
-  height: 450px;
+  height: 400px;
 }
 .text-content h3 {
   color: #00b894;
