@@ -920,15 +920,12 @@ header {
 }
 
 .thanks {
-    color: #00b894;
     justify-content: center;
-    font-size: 2.5rem;
     align-text: center;
 }
 
 .checkmark {
     font-size: 3rem;
-    justify-content: center;
     color: #00b894;
     margin-top: 90px;
 }
