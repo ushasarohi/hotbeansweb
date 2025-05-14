@@ -760,8 +760,7 @@ textarea {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
-  position: relative;
-  height: 450px;
+  flex-wrap: wrap;
 }
 
 .text-content {
@@ -769,7 +768,6 @@ textarea {
   max-height: 100vh;
   overflow-y: auto;
   padding-right: 1rem;
-  height: 400px;
 }
 .text-content h3 {
   color: #00b894;
@@ -782,13 +780,11 @@ textarea {
 
 .image-content {
   flex: 1 1 35%;
-  position: sticky;
-  top: 2rem;
   align-self: flex-start;
-  height: fit-content;
 }
 .image-content img {
-  width: 550px;
+  width: 100%;
+  max-width: 550px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -821,10 +817,42 @@ textarea {
 @media (max-width: 600px) {
     .about-content {
         flex-direction: column;
+        gap: 1rem;
     }
-    .text-content, .image-content {
-        flex: 1 1 100%;
+    .text-content{
+        padding-right: 0;
+        max-height: none;
+        height: auto;
     }
+    
+    .image-content {
+        position: static;
+        text-align: center;
+  }
+
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .about-section h1 {
+    font-size: 1.8rem;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-content p {
+    font-size: 0.95rem;
+  }
+
+  .text-content h3 {
+    font-size: 1.1rem;
+  }
     .stats-section {
         flex-direction: column;
         gap: 2rem;
