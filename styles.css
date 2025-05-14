@@ -301,6 +301,10 @@ body {
         flex-direction: column;
     }
 
+    .main_map_container {
+        flex-direction: column;
+    }
+
     .image-section img {
         max-width: 100%;
         height: auto;
