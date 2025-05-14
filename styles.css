@@ -1041,6 +1041,19 @@ header {
     }
 }
 
+.privacy-text {
+  flex: 1;
+}
+
+.privacy-text h3 {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.privacy-text p {
+  margin-bottom: 1rem;
+}
+
 .map-section {
     flex: 1;
 }
