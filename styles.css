@@ -824,6 +824,7 @@ textarea {
 
 @media (max-width: 480px) {
   .about-section h1 {
+    margin-top: 60px;
     font-size: 1.6rem;
   }
 
