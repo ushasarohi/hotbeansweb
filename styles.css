@@ -919,7 +919,6 @@ header {
     background-color: #019270;
 }
 
-
 .thank-you-container {
   max-width: 800px;
   margin: 0 auto;
@@ -962,20 +961,12 @@ header {
   margin-bottom: 0.5rem;
 }
 
-
-
-
 .checkmark {
     font-size: 3rem;
     color: #00b894;
     margin-top: 90px;
     display: block;
     text-align: center;
-}
-
-h1 {
-    text-align: center;
-    margin: 20px auto;
 }
 
 .box {
