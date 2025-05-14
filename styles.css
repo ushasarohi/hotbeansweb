@@ -77,9 +77,8 @@ body {
 
 /* Mobile Navbar Styles */
 @media (max-width: 768px) {
-    /* Hide Nav Links Initially */
     .nav-links {
-        display: none; /* Hide the navigation links by default */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 100%;
@@ -91,70 +90,48 @@ body {
         max-height: 70vh;
     }
 
-    /* Show Nav Links When Toggled */
     .nav-links.show {
-        display: flex; /* Show the nav links when the "show" class is added */
+        display: flex;
     }
 
     /* Navbar Toggler Button (Hamburger Icon) */
     .navbar-toggler {
-        background: white;
+        background: transparent;
         border: none;
         font-size: 30px;
         cursor: pointer;
-        position: absolute;
-        top: 16%;
-        right: 20px;
-        height: 45px;
-        width: 45px;
-        line-height: 45px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 11000; /* Ensure it's above the nav links */
+        margin-left: auto;
+        padding: 8px;
+        z-index: 11000;
     }
 
-    /* Active state for the toggler button (close icon) */
-    .navbar-toggler.active {
-        background: #00b894;
-        color: white;
+    .navbar-toggler .hamburger,
+    .navbar-toggler .close {
+        pointer-events: none;
     }
 
-    /* Show hamburger icon when the menu is closed */
-    .navbar-toggler .hamburger {
-        display: block;
-    }
-
-    /* Hide close icon when the menu is closed */
     .navbar-toggler .close {
         display: none;
     }
 
-    /* Show close icon when the menu is opened */
     .navbar-toggler.active .hamburger {
         display: none;
     }
 
-    /* Show the close icon when toggler is active */
     .navbar-toggler.active .close {
         display: block;
     }
 
-    /* Styling for links in the mobile menu */
     .nav-links a {
-        color: black; /* Set link color to black on mobile */
-        text-decoration: none;
+        color: black;
         padding: 15px;
         font-size: 18px;
-        transition: color 0.3s ease;
     }
 
-    /* Change link color on hover */
     .nav-links a:hover {
-        color: #00b894; /* Set hover color to brand color (green) */
+        color: #00b894;
     }
 
-    /* Ensure navbar has appropriate height and scrolls well */
     .navbar {
         padding: 15px 20px;
         display: flex;
@@ -164,7 +141,6 @@ body {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     }
 
-    /* Adjust navbar logo font size for mobile */
     .logo {
         font-size: 20px;
         font-weight: bold;
