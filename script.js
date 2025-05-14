@@ -16,21 +16,19 @@ document.getElementById('applyForm').addEventListener('submit', function(e) {
 
 document.addEventListener("DOMContentLoaded", function () {
     const navbarToggler = document.querySelector(".navbar-toggler");
-    const navLinks = document.querySelector(".nav-links");  // This targets the nav links (corrected selector)
+    const navLinks = document.querySelector(".nav-links");
 
-    // Toggle the mobile menu
-    navbarToggler.addEventListener("click", function () {
-        navLinks.classList.toggle("show");  // Toggle the visibility of the nav links
-        navbarToggler.classList.toggle("active");  // Toggle the button's active state (show close icon)
-    });
-
-    // Close the mobile menu when a link is clicked
-    document.querySelectorAll(".nav-links a").forEach(item => {
-        item.addEventListener("click", function () {
-            if (navLinks.classList.contains("show")) {
-                navLinks.classList.remove("show");
-                navbarToggler.classList.remove("active");  // Reset hamburger to its original state
-            }
+    if (navbarToggler && navLinks) {
+        navbarToggler.addEventListener("click", function () {
+            navLinks.classList.toggle("show");
+            navbarToggler.classList.toggle("active");
         });
-    });
+
+        document.querySelectorAll(".nav-links a").forEach(link => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("show");
+                navbarToggler.classList.remove("active");
+            });
+        });
+    }
 });
