@@ -796,6 +796,7 @@ textarea {
 
 @media (max-width: 600px) {
     .about-content {
+        margin-top: 25px;
         flex-direction: column;
         gap: 1rem;
     }
