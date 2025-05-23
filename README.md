@@ -62,6 +62,26 @@ To further support aspiring web developers, this section will include curated ex
 
 **Design:** Each course will be presented in an individual card format, containing a brief overview that outlines the primary topics covered and the skills acquired upon completion. Each card will also include a direct link that redirects users to the course's detailed page for further exploration and enrollment.
 
+### Wireframe:
+The wireframe acts as a framework of the website, where I can focus on webpage structure and functionality as opposed to colours and the overall style of the website.
+![HomepageWireframe](https://github.com/user-attachments/assets/1eff36e8-b82c-4691-bbc8-533330e6d2be), ![ResourcespageWireframe](https://github.com/user-attachments/assets/52749a8b-ba4a-4a67-a2ad-9c3738e315c7)
+![CareerspageWireframe](https://github.com/user-attachments/assets/6a9370df-c080-43bb-8a66-d214af474e90)
+![OurteampageWireframe](https://github.com/user-attachments/assets/70875943-453f-424a-8788-5ed30012305f)
+![AboutuspageWireframe](https://github.com/user-attachments/assets/1cac4054-916a-49e3-a938-8b39b88b05c0)
+
+### Mockups
+
+![web_pic 5](https://github.com/user-attachments/assets/f447159d-409f-448f-a198-209a328e652c)
+![web_pic 4](https://github.com/user-attachments/assets/cbd9b884-0b05-417f-91d9-86a97499b638)
+![web_pic 3](https://github.com/user-attachments/assets/ae9e049a-902d-4ba2-895d-5afff14b8b9f)
+![web_pic 2](https://github.com/user-attachments/assets/0a59b304-1739-42c0-92f3-aad5846d23df)
+![web_pic 1](https://github.com/user-attachments/assets/c2e28b81-dcb8-4f98-97ad-c586fdcf9a3d)
+![mobile_pic4](https://github.com/user-attachments/assets/00c5ff7e-8c4d-4452-b03b-819ffdd1d3d5)
+![mobile_pic3](https://github.com/user-attachments/assets/da0b55e6-18e3-4293-bbd4-6d87015c40ef)
+![mobile_pic2](https://github.com/user-attachments/assets/692dbea5-0310-48da-aaf4-3c8c0a54ef17)
+![mobile_pic1](https://github.com/user-attachments/assets/50b7bbe0-7c9e-43c8-ad9c-3af6d1c20419)
+
+
 ## Testing Documentation
 
 
